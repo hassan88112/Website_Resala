@@ -1,0 +1,32 @@
+.slicknav_menu
+{
+    display: none;
+    
+    
+}
+
+
+@media screen and (max-width:992px)
+{
+    
+    #menu{
+        display: none;
+    }
+    .slicknav_menu
+    {
+        
+        display: inline-block;
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        background:transparent;
+    }
+   .slicknav_btn 
+    {
+        background-color: orange;
+        
+        
+        
+    }
+    
+}

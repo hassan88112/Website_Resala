@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            /**{
+                margin:0;
+                padding:0;
+            }*/
+            .menue{
+                background-color:#93009E;
+                height: 80px;
+            }
+            .menue ul{
+                list-style: none;
+            }
+            .menue ul li{
+                display:inline-block;
+                font-family: Arial;
+                color: white;
+                width: 200px;
+                height: 80px;
+                text-align: center;
+                font-size: 20px;
+                line-height: 80px;
+                font-weight:bold;
+                margin-left: 170px;
+            }
+            .menue ul li a{
+                text-decoration: none;
+                color:inherit;
+            }
+            .menue ul li:hover{
+                background-color: #DA00FC;
+            }
+            .second{
+                margin-top:200px;
+            }
+            .second img{
+                width:1450px;
+            }
+            .third{
+                margin-top:200px;
+                background-color:#93009E;
+                height: 1000px;
+                width:1090px;
+                margin-left:170px;
+            }
+            .third img{
+                width:250px;
+                height:250px;
+                padding-top:15px;
+                padding-left:15px;
+            }
+            .in img{
+                padding-left:80px;
+            }
+            .third p{
+                font-size:50px;
+                font-family: Arial;
+                color: white;
+                padding-left:390px;
+            }
+            .third h3{
+                font-size:30px;
+                font-family: Arial;
+                color: white;
+                padding-left:435px;
+            }
+        </style>
+    </head>
+    <body>
+     <form requierd>
+        <fieldset>
+            <legend>BTS World:</legend>
+            <div class="menue">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CATEGORIES</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="second">
+                <img src="https://pbs.twimg.com/media/ECYRsGNU0AA3-eC.jpg">
+            </div>
+            <div class="third">
+                <div class="in">
+                    <img src="https://i.pinimg.com/originals/19/63/30/19633017bebd1da4cf2f42a5259ea695.jpg">
+                    <img src="https://data.whicdn.com/images/329582201/original.jpg">
+                    <img src="https://www.famousbirthdays.com/faces/yoongi-min-image.jpg">
+                </div><br>
+                <img src="https://i.pinimg.com/originals/ec/96/1c/ec961c4fa470b74e17c8986e373765ae.jpg">
+                <img src="https://i.pinimg.com/originals/ec/f5/c1/ecf5c17ddb3a414a104aa5ced0001d3c.jpg">
+                <img src="https://i.pinimg.com/originals/98/8d/bf/988dbf0e4a772ec895651e4ebaaf729e.jpg">
+                <img src="https://img1.kpopmap.com/2019/08/bts-jungkook-lotte-family-3.jpg"><br>
+                <p>Contact US:</p>
+                <h3>INSTAGRAM</h3>
+                <h3>FACEBOOK</h3>
+                <h3>BY TWITTER</h3>
+            </div>
+        </fieldset>
+     </form>
+     </body>
+</html>
